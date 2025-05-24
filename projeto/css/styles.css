@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-image: url('../img/galaxia4k.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    background-color: #000; 
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    background-color: #18181b;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: #eae6fa;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+li a:hover {
+    color: #8f5cff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  flex: 1;
+  color: aliceblue;
+  text-align: center;
+}
+
+body {
+  background-image: url('galaxia.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  min-height: 100vh;
+  color: #E0E0E0;
+  text-align: center;
+}
+
+.Bemvindo {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ffffff, hsl(150, 2%, 84%));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 10px rgba(99, 99, 99, 0.6);
+  animation: fadeInUp 1.2s ease forwards;
+  opacity: 0;
+  margin-bottom: 12px;
+}
+
+.subtexto {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #C4C4C4;
+  animation: fadeInUp 1.8s ease forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+footer {
+    background-color: #8f5cff;
+    color: #eae6fa;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+}

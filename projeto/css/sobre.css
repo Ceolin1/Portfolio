@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+        background-image: url(../img/galaxia4k.jpg);
+    background-size: cover; /* A imagem cobre todo o elemento */
+    background-position: center; /* Alinha a imagem ao centro */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+header {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    background-color: #18181b;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li a {
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+li a:hover {
+    color: #8f5cff;
+}
+
+main {
+    font-family: sans-serif;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    min-height: 500px; /* Certifique-se de que o elemento tem altura */
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1000px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 220px; 
+}
+
+.card img {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+    object-position: center 20%;
+}
+
+.card-content {
+    width: 60%;
+    padding: 24px;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    color: aliceblue;
+}
+
+.card-content h1 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 2em;
+    color: aliceblue;
+}
+
+.card-content p {
+    margin-bottom: 12px;
+    font-size: 1em;
+    color: aliceblue;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #8f5cff;
+    color: #eae6fa;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+}   
