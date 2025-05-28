@@ -8,9 +8,9 @@
 
 body {
         background-image: url(../img/galaxia4k.jpg);
-    background-size: cover; /* A imagem cobre todo o elemento */
-    background-position: center; /* Alinha a imagem ao centro */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
 }
 
@@ -55,7 +55,7 @@ main {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    min-height: 500px; /* Certifique-se de que o elemento tem altura */
+    min-height: 500px; 
 }
 .card-container {
     display: flex;
