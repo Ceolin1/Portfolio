@@ -1,2 +1,2 @@
-# weblab
-Repositório para a aula de weblab
+# Portfolio
+Repositório para meu portfólio pessoal
